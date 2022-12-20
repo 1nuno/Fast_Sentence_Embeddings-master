@@ -281,7 +281,6 @@ class BaseSentence2VecModel(SaveLoad):
         """
         logger.info(
             f"training on {eff_sentences} effective sentences with {eff_words} effective words "
-            f"took {int(overall_time)}s with {int(eff_sentences / overall_time)} sentences/s"
         )
 
     def _check_pre_training_sanity(
